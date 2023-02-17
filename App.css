@@ -1,0 +1,150 @@
+//显示两行，超出的用省略号显示
+.ellips_line1 {
+	overflow: hidden;
+	-webkit-line-clamp: 1;
+	text-overflow: ellipsis;
+	display: -webkit-box !important;
+	-webkit-box-orient: vertical;
+}
+
+//显示两行，超出的用省略号显示
+.ellips_line2 {
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	text-overflow: ellipsis;
+	display: -webkit-box !important;
+	-webkit-box-orient: vertical;
+}
+
+//显示三行，超出的用省略号显示
+.ellips_line3 {
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	text-overflow: ellipsis;
+	display: -webkit-box !important;
+	-webkit-box-orient: vertical;
+}
+
+// 文字居中
+.tac {
+	text-align: center;
+}
+
+// 文字居右
+.tar {
+	text-align: right;
+}
+
+// 文字居左
+.tal {
+	text-align: left;
+}
+
+// 两端排版
+.flex_sp_be {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+// x两端排版y顶部
+.flex_sp_be_start {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	align-items: flex-start;
+}
+
+// 两端平均排版
+.flex_sp_ar {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+//居中
+.flex_center {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+
+// 纵向从左对齐上下两端排版
+.flex_col_sp_be_cen {
+	height: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+// 纵向从左对齐上下两端排版
+.flex_col_sp_be {
+	height: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+// 纵向从左对齐上下平均排版
+.flex_col_sp_ar_cen {
+	height: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+// 纵向从左对齐上下平均排版
+.flex_col_sp_ar {
+	height: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+// 纵向从左对齐上下平均排版
+.flex_col_start_cen {
+	height: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+// 从左到右排版
+.flex_start {
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+// 从右到左排版
+.flex_end {
+	display: flex;
+	justify-content: flex-end;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+//纵向顶部对齐 
+.ai_start {
+	align-items: flex-start;
+}
+
+//横向不换行 
+.flex-RN {
+	flex-flow: row nowrap;
+}
+
+//鼠标变小手
+.pointer {
+	cursor: pointer;
+}

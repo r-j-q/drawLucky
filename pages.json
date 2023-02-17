@@ -1,0 +1,886 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/pc/src/home/home",
+			"style": {
+				"navigationBarTitleText": "%home%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/home/home",
+			"style": {
+				"navigationBarTitleText": "%home%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/trade/trade",
+			"style": {
+				"navigationBarTitleText": "%trade%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/future/future",
+			"style": {
+				"navigationBarTitleText": "%future%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/trust/trust",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%trust%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/assets/assets",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%assets%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/login/login",
+			"style": {
+				"navigationBarTitleText": "%login%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/register/register",
+			"style": {
+				"navigationBarTitleText": "%register%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/resetPassword/resetPassword",
+			"style": {
+				"navigationBarTitleText": "%resetPassword%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/settings/settings",
+			"style": {
+				"navigationBarTitleText": "%settings%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/assets/c2cRecord",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%c2cRecord%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/assets/orderHistory",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%orderHistory%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/assets/depositDetail",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%depositDetail%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/assets/c2cTrade",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%c2cTrade%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/assets/withdrawDetail",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%withdrawDetail%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/assets/coin",
+			"style": {
+				"navigationBarTitleText": "%coin%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/assets/assetsDetail",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%assetsDetail%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/assets/transfer",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%transfer%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/assets/transferRecords",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%transferRecords%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/assets/withdraw",
+			"style": {
+				"navigationBarTitleText": "%withdraw%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/home/c2cPaymentMethods",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%c2cPaymentMethods%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/home/addC2CPayment",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%addC2CPayment%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/home/verification",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%verification%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/home/verificationBasic",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%verificationBasic%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/home/verificationAdvanced",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%verificationAdvanced%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/serviceCenter",
+			"style": {
+				"navigationBarTitleText": "%serviceCenter%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/address",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%address%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/changeEmail",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%changeEmail%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/other/me/account",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%account%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/addAddress",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%addAddress%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/aboutUs",
+			"style": {
+				"navigationBarTitleText": "%aboutUs%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/changeColor",
+			"style": {
+				"navigationBarTitleText": "%changeColor%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/changeLang",
+			"style": {
+				"navigationBarTitleText": "%changeLang%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/changeTheme",
+			"style": {
+				"navigationBarTitleText": "%changeTheme%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/setPayPassword",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%setPayPassword%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/updatePassword",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%updatePassword%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/help",
+			"style": {
+				"navigationBarTitleText": "%help%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/sub",
+			"style": {
+				"navigationBarTitleText": "%sub%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/detail",
+			"style": {
+				"navigationBarTitleText": "%detail%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/me/changeValuation",
+			"style": {
+				"navigationBarTitleText": "%changeValuation%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/normal/introduce",
+			"style": {
+				"navigationBarTitleText": "%introduce%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/normal/phoneCode",
+			"style": {
+				"navigationBarTitleText": "%phoneCode%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/normal/privacy",
+			"style": {
+				"navigationBarTitleText": "%privacy%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/normal/protocol",
+			"style": {
+				"navigationBarTitleText": "%protocol%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/normal/trustProtocol",
+			"style": {
+				"navigationBarTitleText": "%trustProtocol%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/trade/spotHome",
+			"style": {
+				"navigationBarTitleText": "%spotHome%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/trade/spot",
+			"style": {
+				"navigationBarTitleText": "%spot%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/trade/exchange",
+			"style": {
+				"navigationBarTitleText": "%exchange%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/trust/bot",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%bot%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/trust/trustOrders",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%trustOrders%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/other/trust/buyBot",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%buyBot%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+		/***************pc*******************/
+		, {
+			"path": "pages/pc/src/me/me",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%me%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/about/about",
+			"style": {
+				"navigationBarTitleText": "%about%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/assets/assets",
+			"style": {
+				"navigationBarTitleText": "%assets%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/transfer/transfer",
+			"style": {
+				"navigationBarTitleText": "%transfer%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/withdraw/withdraw",
+			"style": {
+				"navigationBarTitleText": "%withdraw%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/addWallet/addWallet",
+			"style": {
+				"navigationBarTitleText": "%addWallet%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/deposit/deposit",
+			"style": {
+				"navigationBarTitleText": "%deposit%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/finance/finance",
+			"style": {
+				"navigationBarTitleText": "%finance%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/auth/auth",
+			"style": {
+				"navigationBarTitleText": "%auth%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/authStep/authStep",
+			"style": {
+				"navigationBarTitleText": "%authStep%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/updateEmail/updateEmail",
+			"style": {
+				"navigationBarTitleText": "%updateEmail%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/updateloginpwd/updateloginpwd",
+			"style": {
+				"navigationBarTitleText": "%updateloginpwd%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/trade/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+				// "navigationStyle": "custom",
+				// "app-plus": {
+				// 	"titleNView": false
+				// }
+			}
+		},
+		{
+			"path": "pages/trade/exchange",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffffff"
+				// "navigationStyle": "custom",
+				// "app-plus": {
+				// 	"titleNView": false
+				// }
+			}
+		},
+		 
+		{
+			"path": "pages/pc/src/bankSetting/bankSetting",
+			"style": {
+				"intercept": true,
+				"navigationBarTitleText": "%bankSetting%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/login/login",
+			"style": {
+				"navigationBarTitleText": "%login%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/register/register",
+			"style": {
+				"navigationBarTitleText": "%register%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/financial/financial",
+			"style": {
+				"navigationBarTitleText": "%financial%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/pc/src/resetPassword/resetPassword",
+			"style": {
+				"navigationBarTitleText": "%resetPassword%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/pc/src/c2cSale/c2cSale",
+			"style": {
+				"navigationBarTitleText": "%c2cSale%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/pc/src/futures/futures",
+			"style": {
+				"navigationBarTitleText": "%futures%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/pc/src/spot/spot",
+			"style": {
+				"navigationBarTitleText": "%spot%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/pc/src/setPayPassword/setPayPassword",
+			"style": {
+				"navigationBarTitleText": "%setPayPassword%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/pc/src/download/download",
+			"style": {
+				"navigationBarTitleText": "%download%",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#1abb97",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/tabbar/home/home",
+				"text": "%home%"
+			},
+			{
+				"pagePath": "pages/tabbar/trade/trade",
+				"text": "%trade%"
+			},
+			{
+				"pagePath": "pages/tabbar/future/future",
+				"text": "%future%"
+			},
+			{
+				"pagePath": "pages/tabbar/trust/trust",
+				"text": "%trust%"
+			},
+			{
+				"pagePath": "pages/tabbar/assets/assets",
+				"text": "%assets%"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
